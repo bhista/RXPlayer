@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Courier", sans-serif;
+}
+
+.logo{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top: 7px;
+    left:4px;
+}
+
+.banner-area{
+    background-image: url(images/b.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 124vh;
+    
+}
+
+.banner{
+    background-color: black;
+    margin-top: 0;
+    width: 100%;
+    height : 100px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    float:left;
+}
+
+.header{
+    padding: 15px 60px;
+}
+
+.head{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+    top: 12px;
+    left: 100px;
+}
+
+.atas{
+    color: black;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+    list-style: none;
+    float: left;
+}
+
+.menu li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.menu li a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: gray;
+}
+
+.menu li ul li{
+    display: none;
+}
+
+.menu li:hover ul li{
+    display: block;
+}
+.kotak{
+    width: 300px;
+    height: 505px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 20px;
+    background: rgba(0, 0, 0, 0.733);
+    padding: 5px;
+}
+
+.album{
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+}
+
+.nama{
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 14.5px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 20px;
+}
+
+
+.kotak2{
+    width: 300px;
+    height: 505px;
+    position: relative;
+    margin-top: -515px;
+    margin-left: 375px;
+    margin-right: 20px;
+    background: rgba(0, 0, 0, 0.733);
+    padding: 5px;
+}
+
+.kotak3{
+    width: 300px;
+    height: 505px;
+    position: relative;
+    margin-top: -55px;
+    margin-left: 325px;
+    margin-right: 20px;
+    background: rgba(0, 0, 0, 0.733);
+    padding: 5px;
+}
+
+
+
+.kotak4{
+    width: 300px;
+    height: 505px;
+    position: relative;
+    margin-top: -55px;
+    margin-left: 325px;
+    margin-right: 20px;
+    background: rgba(0, 0, 0, 0.733);
+    padding: 5px;
+}
+
+.label{
+    width: 160px;
+    height: 40px;
+    position: relative;
+    margin-left: 70px;
+    margin-top: 10px;
+    box-shadow: 0 0 0px 5px rgba(238, 234, 232, 0.733);
+    border-radius: 30px;
+}
+
+
+.judul{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+
+.label2{
+    width: 160px;
+    height: 40px;
+    position: relative;
+    margin-left: 70px;
+    margin-top: 10px;
+    box-shadow: 0 0 0px 5px rgba(238, 234, 232, 0.733);
+    border-radius: 30px;
+}
+
+
+.judul2{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+.label3{
+    width: 160px;
+    height: 40px;
+    position: relative;
+    margin-left: 70px;
+    margin-top: 10px;
+    box-shadow: 0 0 0px 5px rgba(238, 234, 232, 0.733);
+    border-radius: 30px;
+}
+
+
+.judul3{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+
+.label4{
+    width: 160px;
+    height: 40px;
+    position: relative;
+    margin-left: 70px;
+    margin-top: 10px;
+    box-shadow: 0 0 0px 5px rgba(238, 234, 232, 0.733);
+    border-radius: 30px;
+}
+
+
+.judul4{
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.Foot{
+    background-color:lightgreen;
+    margin-top: 0;
+    width: 196vh;
+    height : auto;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    display: flex;
+    float:left;
+    position: absolute;
+    bottom: -100px;
+    left: -1050px;
+}  
+.Foot p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}  
+.subFoot {
+    font-size: 15px;
+    color: white;
+   margin-top: 15px;
+   position: static;
+    background-color:black;
+    margin-top: 0;
+    width: 196vh;
+    height : auto;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    display: flex;
+    float:left;
+    position: absolute;
+    bottom: -130px;
+    left: -1050px;
+}
+.copy{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Text img{
+    width: 250px;
+    height: 250px;
+}

@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Courier", sans-serif;
+}
+.logo{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top: 5px;
+}
+
+.banner-area{
+    background-image: url(images/pop.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 200vh;
+
+}
+
+.banner{
+    background-color: black;
+    margin-top: 0;
+    width: 100%;
+    height : 100px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    float:left;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    padding: 15px 60px;
+}
+
+.head{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+    top: 12px;
+    left: 100px;
+}
+
+
+.menu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 450px;
+    list-style: none;
+    float: left;
+}
+
+.menu li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.menu li a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: gray;
+}
+
+.menu li ul li{
+    display: none;
+}
+
+.menu li:hover ul li{
+    display: block;
+}
+
+.Text{
+    margin-bottom: 40px;
+}
+
+.slider{
+    width: 960px;
+    height: 450px;;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.image_container{
+    width: 2880px;
+    height: 450x;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+}
+
+.slider-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+
+}
+.button-container{
+    top: -20px;
+    position: relative;
+}
+.slider-button{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: lightslategray;
+}
+#slider-image1:target ~ .image_container{
+    left: 0px;
+}
+#slider-image2:target ~ .image_container{
+    left: -1005px;
+}
+
+#slider-image3:target ~ .image_container{
+    left: -1920px;
+}
+
+.judul_whatsnew{
+    color: white;
+    position: absolute;
+    left: 30px;
+    font-size: 25px;
+}
+.Text{
+    width: 900px;
+    height: 450px;
+    position: relative;
+    margin-left: 230px;
+    margin-top: 130px;
+    background: rgba(0, 0, 0, 0.733);
+    padding: 5px;
+}
+
+.Gambar_whatsnew{
+    width: 100px;
+    height: 100px;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.konten{
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 20px;
+    position: relative;
+    margin-left: 290px;
+    margin-top: -70px;
+}
+
+.Foot{
+    background-color:lightgreen;
+    margin-top: 0;
+    width: 100%;
+    height : auto;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    display: flex;
+    float:left;
+
+}  
+.Foot p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}  
+.subFoot {
+    font-size: 15px;
+    color: white;
+   margin-top: 15px;
+   position: static;
+    background-color:black;
+    margin-top: 0;
+    width: 100%;
+    height : auto;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    display: flex;
+    float:left;
+
+}
+.copy{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Text img{
+    width: 250px;
+    height: 250px;
+}
